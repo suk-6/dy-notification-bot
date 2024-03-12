@@ -7,3 +7,4 @@ services:
       - "9023:8000"
     env_file:
       - .env
+    restart: always
