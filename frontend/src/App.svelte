@@ -78,4 +78,9 @@
 			</button>
 		</div>
 	</div>
+	<footer>
+		<div class="flex justify-center mt-8 text-muted-foreground">
+			<p>© 2024. DY@Software. All rights reserved.</p>
+		</div>
+	</footer>
 </main>

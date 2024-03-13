@@ -1,8 +1,9 @@
 {
 	"name": "dy-notification",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"private": true,
 	"type": "module",
+	"license": "MIT",
 	"scripts": {
 		"build": "rollup -c",
 		"dev": "rollup -c -w",
