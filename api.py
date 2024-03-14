@@ -37,6 +37,10 @@ class API:
             data = {
                 "conversation_id": self.getConversation(user)["conversation"]["id"],
                 "text": content,
+                "blocks": [
+                    {"type": "header", "text": "전체 공지 메세지", "style": "blue"},
+                    {"type": "text", "text": content},
+                ],
             }
             requests.post(url, headers=self.headers, json=data)
 
