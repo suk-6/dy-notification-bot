@@ -36,9 +36,9 @@ class API:
         for user in userList:
             data = {
                 "conversation_id": self.getConversation(user)["conversation"]["id"],
-                "text": content,
+                "text": f"[공지] {content}",
                 "blocks": [
-                    {"type": "header", "text": "전체 공지 메세지", "style": "blue"},
+                    {"type": "header", "text": "전체 공지 알림", "style": "blue"},
                     {"type": "text", "text": content},
                 ],
             }
